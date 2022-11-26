@@ -1,0 +1,31 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "lint": "tsc && eslint \"./**/*.ts\""
+  },
+  "keywords": [],
+  "author": "Кренделев Роман",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.11.9",
+    "inquirer": "^9.1.4",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.5.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "2.8.0",
+    "typescript": "^4.9.3"
+  }
+}
